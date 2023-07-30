@@ -8,6 +8,11 @@ variable: '--font-inter',})
 export const metadata: Metadata = {
   title: 'Genius',
   description: 'AI-Platform',
+  icons : {
+    icon : 
+      "/favicon.ico"
+    
+  }
 }
 
 export default function RootLayout({
