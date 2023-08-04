@@ -1,6 +1,27 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 const LandingPage = () => {
     return (
-        <div>Landing page for the whole project please enjoy great great job</div>
+        <>
+        <div>
+            This is the landing page
+        </div>
+
+        <Link href="/sign-in">
+            <Button>
+                Sign In
+            </Button>
+
+        </Link>
+
+        <Link href="/sign-up">
+            <Button>
+                Sign Up
+            </Button>
+        </Link>
+        </>
+
     )
 }
 
